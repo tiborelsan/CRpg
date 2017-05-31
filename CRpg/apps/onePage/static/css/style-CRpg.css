@@ -1,0 +1,102 @@
+@font-face {
+  font-family: "Heroes Legend";
+  src: url("/static/font/Heroes Legend.ttf");
+}
+
+/* BLOC HEADER/ACCUEIL */
+
+header .row:nth-child(1) .col-sm-5 img{
+    max-height: 80vh !important;
+    margin-top: 50vh;
+    transform: translateY(-50%);
+}
+
+header{
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+}
+
+header .row{
+    background-color: rgba(184, 134, 11,0.7);
+    height: 100vh;
+    width: 100vw;
+}
+
+header .row:nth-child(1) .col-sm-7 h1{
+    width: 100%;
+    margin-top: 50vh;
+    transform: translateY(-50%);
+    font-family: "Heroes Legend";
+}
+
+/* BLOC STORY */
+
+.story{
+    width: 100%;
+}
+
+.story .row{
+    height: 70vh;
+    text-align: center;
+    background-color: rgba(55, 165, 161,0.5);
+    width: 100vw;
+}
+
+.story .row .col-sm-12{
+    width: 80vw;
+    text-align: center;
+    margin-left: 10vw;
+}
+
+.story .row .col-sm-12:nth-child(1){
+    margin-top:-30vh;
+    font-family: "Heroes Legend";
+}
+
+.story .row .col-sm-12:nth-child(1) h2{
+    line-height: 5;
+}
+
+/***************************************************/
+/* BUG BLOC/SECTION SE CHEVAUCHE QUAND ECRAN PETIT */
+/***************************************************/
+
+/* BLOC SCREENSHOTS */
+
+.screen .row .col-md-8 h2{
+    font-family: "Heroes Legend";
+    line-height: 5;
+}
+
+.screen .row{
+    height: 100vh;
+    width: 100%;
+}
+
+.screen .row:nth-child(1) img{
+    max-height: 60vh;
+    margin-top: 30vh;
+    transform: translateY(-50%);
+}
+
+/* BLOC TELECHARGEMENT */
+
+.download .row{
+    background-color: rgba(50, 160, 40,0.7);
+    height: 100vh;
+    width: 100vw;
+}
+
+.download .row .col-md-8 h2{
+    font-family: "Heroes Legend";
+    margin-top: -2vh;
+    margin-bottom: 5vh;
+}
+
+/* BLOC FOOTER */
+
+footer{
+    text-align: center;
+     background-color: rgba(10, 10, 10,0.2);
+}
